@@ -341,9 +341,7 @@ INSERT INTO Reviews (cust_id, product_id, rating) VALUES
 (68,68,5),(69,69,4),(70,70,3),(71,71,5),(72,72,4),
 (1,15,5),(2,16,4),(3,17,3),(4,18,5),(5,19,4);
 
--- =====================
--- Additional Cart (13-80)
--- =====================
+
 INSERT INTO Cart (cust_id, product_id, quantity) VALUES
 (13,14,1),(14,15,2),(15,16,1),(16,17,1),(17,18,2),
 (18,19,1),(19,20,3),(20,21,1),(21,22,2),(22,23,1),
@@ -360,9 +358,7 @@ INSERT INTO Cart (cust_id, product_id, quantity) VALUES
 (1,13,2),(2,14,1),(3,15,2),(4,16,1),(5,17,3),
 (6,18,1),(7,19,2),(8,20,1);
 
--- =====================
--- Additional Address (13-80)
--- =====================
+
 INSERT INTO Address (cust_id, city, pincode) VALUES
 (13,'Chennai',600004),(14,'Madurai',625003),(15,'Coimbatore',641002),
 (16,'Trichy',620002),(17,'Salem',636003),(18,'Chennai',600005),
